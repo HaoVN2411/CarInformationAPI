@@ -1,0 +1,807 @@
+2023-07-11T00:42:13.8823573+07:00 [INF] () Get All Brand: 
+2023-07-11T00:42:16.1678921+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T00:42:16.3174948+07:00 [INF] () [{"BrandId":1,"BrandName":"Toyota","BrandDescription":"toyota is a brand"},{"BrandId":3,"BrandName":"Tofu","BrandDescription":"oto from Trung Quoc"},{"BrandId":4,"BrandName":"Yamaha","BrandDescription":"Xe oto"},{"BrandId":5,"BrandName":"Honda","BrandDescription":"Xe oto"}]
+2023-07-11T01:40:19.3131200+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("60"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:40:33.6382294+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:40:36.2949712+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:40:39.7642897+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:40:40.7672277+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:40:45.3745400+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:40:46.1672006+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("102"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T01:40:46.3260085+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T01:42:09.6506051+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T01:44:02.8098091+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("54"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T01:44:18.3926293+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T02:00:08.3144847+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T02:00:08.6544042+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("23"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T02:00:08.7504816+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T02:01:09.7194736+07:00 [INF] () Get All Car: 
+2023-07-11T02:01:09.7461808+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:01:09.7795254+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:10.1265919+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:10.1416112+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:01:34.9160177+07:00 [INF] () Get All Car: 
+2023-07-11T02:01:34.9790769+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:01:34.9841182+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:34.9883329+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:34.9912079+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:01:55.4805840+07:00 [INF] () Get All Car: 
+2023-07-11T02:01:55.4847480+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:01:55.4920421+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:55.4964922+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:55.5016231+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:01:59.7928419+07:00 [INF] () Get All Car: 
+2023-07-11T02:01:59.7954418+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:01:59.8015448+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:59.8061433+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:01:59.8097849+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:05:12.0661766+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("58"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T02:05:26.5092542+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T02:05:26.9082653+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("21"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T02:05:26.9959148+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T02:06:29.4173083+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:29.4329617+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:29.4695509+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:29.4918589+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:29.5040688+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:06:31.7164873+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:31.7839763+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:31.7877977+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:31.7914157+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:31.7941785+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:06:33.0739212+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:33.0768879+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:33.0818105+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:33.0923328+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:33.0973532+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:06:35.2790180+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:35.2839933+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:35.2881668+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:35.2919606+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:35.2960083+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:06:37.4465953+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:37.4491349+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:37.4524018+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:37.4553776+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:37.4575561+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:06:39.3998613+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:39.4023984+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:39.4061510+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:39.4175714+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:39.4210520+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:06:40.4348882+07:00 [INF] () Get All Car: 
+2023-07-11T02:06:40.4367976+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:06:40.4406068+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:40.4464197+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:06:40.4539807+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:14:00.0533968+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T02:14:00.4450983+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("22"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T02:14:00.5352091+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T02:14:15.6734362+07:00 [INF] () Get All Car: 
+2023-07-11T02:14:15.6865345+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:14:15.7170842+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:15.7415194+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:15.7548966+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:14:24.1640125+07:00 [INF] () Get All Car: 
+2023-07-11T02:14:24.2132571+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:14:24.2171298+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:24.2204840+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:24.2230897+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:14:25.0986912+07:00 [INF] () Get All Car: 
+2023-07-11T02:14:25.1010175+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:14:25.1056463+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:25.1104341+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:25.1155214+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:14:26.6112732+07:00 [INF] () Get All Car: 
+2023-07-11T02:14:26.6147500+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:14:26.6196533+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:26.6229573+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:14:26.6255928+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:22:08.1886977+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T02:22:08.6355830+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("22"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T02:22:08.7198344+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T02:22:18.3419311+07:00 [INF] () Get All Car: 
+2023-07-11T02:22:18.3527552+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:22:18.3793921+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:22:18.4024492+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:22:18.4141772+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:22:21.2304641+07:00 [INF] () Get All Car: 
+2023-07-11T02:22:21.2839815+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:22:21.2879554+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:22:21.2912625+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:22:21.2934200+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T02:22:22.6851950+07:00 [INF] () Get All Car: 
+2023-07-11T02:22:22.6894572+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T02:22:22.6969496+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:22:22.7031714+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T02:22:22.7141235+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T03:45:11.9309982+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:45:12.3165991+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("23"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:45:12.4072387+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:45:21.0044584+07:00 [INF] () Get All Car: 
+2023-07-11T03:45:21.0151593+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T03:45:21.0399636+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T03:45:21.0590744+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T03:45:21.0718778+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T03:45:24.7724899+07:00 [INF] () Get All Car: 
+2023-07-11T03:45:24.8224409+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-11T03:45:24.8259149+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T03:45:24.8291053+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-11T03:45:24.8319424+07:00 [INF] () [{"Id":5,"Name":"Camry","BrandName":"Toyota","Description":"Oto","Price":1000.0},{"Id":6,"Name":"vios","BrandName":"Toyota","Description":"111","Price":123.0}]
+2023-07-11T03:46:46.1952476+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:46:46.2053809+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:46:46.2092127+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:47:39.9159078+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:48:13.3356661+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:48:13.6019561+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("54"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:48:13.7888077+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:48:22.0470564+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:48:25.7586138+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:48:27.4482413+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:48:29.1379646+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:48:31.6747332+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:49:22.8959817+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("57"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:49:25.4832009+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("39"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:49:25.6219577+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:49:39.1376138+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:50:46.2161410+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:50:46.5644797+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("20"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:50:46.6492557+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:50:54.8434754+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:50:54.8701946+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:50:54.8822512+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:50:54.8897151+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:51:06.3209498+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:51:06.3263742+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:51:06.3303113+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:51:06.3337934+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:51:27.5447338+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:51:27.5518257+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:51:27.5564689+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:51:27.5616862+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:51:45.2158373+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:51:53.7938414+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:51:53.8005073+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:51:53.8057613+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:51:59.6463584+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:07.7417800+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:07.7513129+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:52:07.7553296+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:52:07.7589032+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:52:14.7414185+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:18.4639252+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:22.5112284+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:52:22.5266150+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:52:22.5298569+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:52:28.7399792+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:30.6737559+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:31.2801412+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:33.5480224+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:40.1514373+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:52:59.9560413+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:52:59.9651258+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:52:59.9695201+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:53:07.3695774+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:53:07.3775922+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:53:07.3822074+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:53:07.3875327+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:53:21.5114994+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:53:21.5182887+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:53:21.5225749+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:53:21.5258794+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:57:27.3280748+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:57:27.7350228+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("19"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:57:27.8089880+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:57:32.5781905+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:57:36.5621123+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:57:51.6449411+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:57:51.6720805+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:57:51.6854726+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:57:51.6940601+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:58:06.4594605+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:58:06.4655283+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:58:06.4705703+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:58:13.2360754+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:58:13.2547855+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:58:13.2624986+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:58:13.2698928+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:58:16.9542456+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:58:16.9626648+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:58:16.9670716+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:58:23.3260486+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:58:23.3454803+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:58:23.3529290+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:58:23.3611464+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:58:39.9791102+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:58:39.9868253+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:58:39.9914347+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:58:46.5413017+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T03:58:46.5509698+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T03:58:46.5583109+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:58:46.5619677+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:59:45.2502790+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T03:59:45.6579265+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("21"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T03:59:45.7320110+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T03:59:50.5192387+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:14.6036974+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:16.6304966+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:17.9165837+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:35.7323036+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:35.7609359+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T04:00:35.7766302+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:00:35.7875221+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:00:39.3928526+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:00:39.4102358+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:00:39.4155008+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T04:00:47.7854076+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:47.7954281+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T04:00:47.8018850+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:00:47.8056670+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:00:51.9525612+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:00:55.3510950+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:00:55.3576978+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:00:55.3620083+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T04:01:08.1940946+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:01:08.2018236+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T04:01:08.2074253+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:01:08.2114542+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:01:30.0715466+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:01:30.0822497+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:01:30.0873630+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T04:01:37.7498637+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:01:37.7618406+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [RefreshToken] SET [CreateTime] = @p0, [ExpireTime] = @p1, [JwtId] = @p2, [isUsed] = @p3, [token] = @p4, [userID] = @p5
+OUTPUT 1
+WHERE [TokenID] = @p6;"
+2023-07-11T04:01:37.7678229+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:01:37.7746443+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:02:06.3357611+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:02:06.9676361+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("48"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:02:07.1006487+07:00 [INF] () {"Username":"string","Password":"string"}
+2023-07-11T04:02:19.6403528+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[TokenID], [r].[CreateTime], [r].[ExpireTime], [r].[JwtId], [r].[isUsed], [r].[token], [r].[userID]
+FROM [RefreshToken] AS [r]"
+2023-07-11T04:03:35.4867535+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("98"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-11T04:03:36.1229416+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("53"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-11T04:03:36.2401378+07:00 [INF] () {"Username":"string","Password":"string"}

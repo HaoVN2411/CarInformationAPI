@@ -1,0 +1,133 @@
+2023-07-10T13:51:20.3215606+07:00 [INF] () Sign Up Information:
+2023-07-10T13:51:22.0388046+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T13:51:22.2859607+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("54"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserLogin] ([Email], [FullName], [Passwpord], [Role], [Username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-07-10T13:54:27.2163481+07:00 [INF] () Sign Up Information:
+2023-07-10T13:54:28.3917163+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T13:54:37.4223425+07:00 [INF] () Sign Up Information:
+2023-07-10T13:54:37.4305658+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T13:54:37.5698538+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("23"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserLogin] ([Email], [FullName], [Passwpord], [Role], [Username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-07-10T13:59:54.3770084+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T13:59:54.5910314+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("19"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserLogin] ([Email], [FullName], [Passwpord], [Role], [Username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-07-10T14:03:41.1643595+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:03:43.1158404+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T14:03:43.3344426+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("32"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserLogin] ([Email], [FullName], [Passwpord], [Role], [Username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-07-10T14:06:49.1042377+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:07:35.2912920+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:07:49.6389300+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:11:32.3288160+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:14:29.8657716+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:14:30.9766916+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("43"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserLogin] ([Email], [FullName], [Passwpord], [Role], [Username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-07-10T14:19:01.2024592+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-10T14:21:11.5503603+07:00 [INF] () Get All Brand: 
+2023-07-10T14:21:12.7828836+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]"
+2023-07-10T14:27:02.9221863+07:00 [INF] () Get All Car: 
+2023-07-10T14:27:04.0718765+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[BrandId], [c].[Description], [c].[Name], [c].[Price]
+FROM [CarInfo] AS [c]"
+2023-07-10T14:27:04.2734413+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("20"ms) [Parameters=["@__car_BrandId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]
+WHERE [b].[BrandId] = @__car_BrandId_0"
+2023-07-10T14:27:04.3030787+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=["@__car_BrandId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[BrandId], [b].[BrandDescription], [b].[BrandName]
+FROM [BrandInfo] AS [b]
+WHERE [b].[BrandId] = @__car_BrandId_0"
+2023-07-10T14:30:20.4967854+07:00 [INF] () Sign Up Infor: 
+2023-07-10T14:30:21.6036592+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T14:30:21.7929071+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("18"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserLogin] ([Email], [FullName], [Passwpord], [Role], [Username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-07-10T14:30:21.9213921+07:00 [INF] () {"Username":"st213321132ring","Passwpord":"123123","ConfirmPasswpord":"123123","FullName":"123123","Email":"123@"}
+2023-07-10T14:47:59.1400593+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-07-10T14:47:59.1966909+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-07-10T14:47:59.1995827+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-07-10T14:47:59.2000466+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-07-10T14:47:59.2169278+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-07-10T14:47:59.2323628+07:00 [INF] (Microsoft.EntityFrameworkCore.Migrations) Applying migration '"20230710074444_RefreshToken"'.
+2023-07-10T14:47:59.2899543+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [RefreshToken] (
+    [TokenID] int NOT NULL IDENTITY,
+    [userID] int NOT NULL,
+    [token] nvarchar(max) NOT NULL,
+    [JwtId] nvarchar(max) NOT NULL,
+    [isUsed] bit NOT NULL,
+    [CreateTime] datetime2 NOT NULL,
+    [ExpireTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_RefreshToken] PRIMARY KEY ([TokenID]),
+    CONSTRAINT [FK_RefreshToken_UserLogin_userID] FOREIGN KEY ([userID]) REFERENCES [UserLogin] ([id]) ON DELETE CASCADE
+);"
+2023-07-10T14:47:59.2937225+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_RefreshToken_userID] ON [RefreshToken] ([userID]);"
+2023-07-10T14:47:59.2948782+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230710074444_RefreshToken', N'7.0.8');"
+2023-07-10T16:37:54.6452183+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T16:37:55.2173132+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("54"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-10T17:02:20.9190512+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[id], [u].[Email], [u].[FullName], [u].[Passwpord], [u].[Role], [u].[Username]
+FROM [UserLogin] AS [u]"
+2023-07-10T17:02:21.2697275+07:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("20"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshToken] ([CreateTime], [ExpireTime], [JwtId], [isUsed], [token], [userID])
+OUTPUT INSERTED.[TokenID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2023-07-10T17:02:21.3513750+07:00 [INF] () {"Username":"string","Password":"string"}
