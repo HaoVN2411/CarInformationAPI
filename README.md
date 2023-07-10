@@ -9,6 +9,7 @@
 
 ### Technologies: 
 * Back-end: RESTful API, JWT, Entity Framework, SQL Server, ASP.NET Core
+* Addition: AutoMapper, SeriLog
 
 ### Funtion: 
 * View Car and Brand of Car Information
